@@ -31,15 +31,41 @@ const int ligado = 7500;
 
 
 void setup() {
-
   //saidas
   pinMode(L1, OUTPUT); pinMode(L2, OUTPUT); pinMode(L3, OUTPUT); pinMode(L4, OUTPUT); pinMode(L5, OUTPUT); pinMode(L6, OUTPUT); pinMode(L7, OUTPUT); pinMode(L8, OUTPUT); pinMode(L9, OUTPUT); pinMode(L10, OUTPUT); pinMode(L11, OUTPUT); pinMode(L12, OUTPUT); pinMode(L13, OUTPUT); pinMode(L14, OUTPUT); pinMode(L15, OUTPUT); pinMode(L16, OUTPUT);
   //entradas
   pinMode(P1, INPUT); pinMode(P2, INPUT); pinMode(P3, INPUT); pinMode(P4, INPUT); pinMode(P5, INPUT); pinMode(P6, INPUT); pinMode(P7, INPUT); pinMode(P8, INPUT); pinMode(P9, INPUT); pinMode(P10, INPUT); pinMode(P11, INPUT); pinMode(P12, INPUT); pinMode(P13, INPUT); pinMode(P14, INPUT); pinMode(P15, INPUT); pinMode(P16, INPUT);
   iniciacao();
-
+  Serial.begin(9600);
 }
 
 void loop() {
-
+  PESS1 = analogRead(P1);
+  PESS2 = analogRead(P2);
+  PESS3 = analogRead(P3);
+  PESS4 = analogRead(P4);
+  PESS5 = analogRead(P5);
+  PESS6 = analogRead(P6);
+  PESS7 = analogRead(P7);
+  PESS8 = analogRead(P8);
+  PESS9 = analogRead(P9);
+  PESS10 = analogRead(P10);
+  PESS11 = analogRead(P11);
+  PESS12 = analogRead(P12);
+  PESS13 = analogRead(P13);
+  PESS14 = analogRead(P14);
+  PESS15 = analogRead(P15);
+  PESS16 = analogRead(P16);
+  //// WTF not
+  Serial.print("sensor = ");
+  Serial.println(PESS1);
+  //========================//
+  if (PESS1 == 0)
+  {
+    pessoa1();
+  }
+  if (PESS2 == 0)
+  {
+    pessoa2();
+  }
 }
