@@ -18,7 +18,7 @@
 //⠀⠏⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣰⠀
 //⠀⠇⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡰⠀
 //⠀⠀⠠⠢⠢⠢⠢⠢⠢⠢⠢⠢⠢⠢⠢⠢⠢⠢⠢⠢⠢⠢⠢⠢⠢⠢⠢⠢⠢⠢⠢⠢⠢⠢⠢⠢⠢⠂⠀
-const int L1  = 30; const int L2  = 28; const int L3  = 26; const int L4  = 24; const int L5  = 22; const int L6  = 20; const int L7  = 18; const int L8  = 16; const int L9  = 14; const int L10 = 12; const int L11 = 10; const int L12 = 8; const int L13  = 6; const int L14  = 4; const int L15  = 2; const int L16  = 0;
+const int L1  = 31; const int L2  = 29; const int L3  = 27; const int L4  = 25; const int L5  = 23; const int L6  = 21; const int L7  = 19; const int L8  = 17; const int L9  = 15; const int L10 = 13; const int L11 = 11; const int L12 = 9; const int L13  = 7; const int L14  = 5; const int L15  = 3; const int L16  = 30;
 //=======================// ENTRADAS
 const int P1  = A0; const int P2  = A1; const int P3  = A2; const int P4  = A3; const int P5  = A4; const int P6  = A5; const int P7  = A6; const int P8  = A7; const int P9  = A8; const int P10 = A9; const int P11 = A10; const int P12 = A11; const int P13 = A12; const int P14 = A13; const int P15 = A14; const int P16 = A15;
 //====================//
@@ -37,6 +37,7 @@ void setup() {
   pinMode(P1, INPUT); pinMode(P2, INPUT); pinMode(P3, INPUT); pinMode(P4, INPUT); pinMode(P5, INPUT); pinMode(P6, INPUT); pinMode(P7, INPUT); pinMode(P8, INPUT); pinMode(P9, INPUT); pinMode(P10, INPUT); pinMode(P11, INPUT); pinMode(P12, INPUT); pinMode(P13, INPUT); pinMode(P14, INPUT); pinMode(P15, INPUT); pinMode(P16, INPUT);
   iniciacao();
   Serial.begin(9600);
+  digitalWrite(L16, LOW);
 }
 
 void loop() {
@@ -57,8 +58,7 @@ void loop() {
   PESS15 = analogRead(P15);
   PESS16 = analogRead(P16);
   //// WTF not
-  Serial.print("sensor = ");
-  Serial.println(PESS1);
+  serial();
   //========================//
   if (PESS1 == 0)
   {
@@ -68,4 +68,65 @@ void loop() {
   {
     pessoa2();
   }
+  if (PESS3 == 0)
+  {
+    pessoa3();
+  }
+  if (PESS4 == 0)
+  {
+    pessoa4();
+  }
+  if (PESS4 == 0)
+  {
+    pessoa4();
+  }
+  if (PESS5 == 0)
+  {
+    pessoa5();
+  }
+  if (PESS6 == 0)
+  {
+    pessoa6();
+  }
+  if (PESS7 == 0)
+  {
+    pessoa7();
+  }
+  if (PESS8 == 0)
+  {
+    pessoa8();
+  }
+  if (PESS9 == 0)
+  {
+    pessoa9();
+  }
+    if (PESS10 == 0)
+  {
+    pessoa10();
+  }
+    if (PESS11 == 0)
+  {
+    pessoa11();
+  }
+    if (PESS12 == 0)
+  {
+    pessoa12();
+  }
+    if (PESS13 == 0)
+  {
+    pessoa13();
+  }
+    if (PESS14 == 0)
+  {
+    pessoa14();
+  }
+    if (PESS15 == 0)
+  {
+    pessoa15();
+  }
+    if (PESS16 == 0)
+  {
+    pessoa16();
+  }
+
 }
