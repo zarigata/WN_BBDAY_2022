@@ -98,4 +98,5 @@ void iniciacao()
   digitalWrite(L14, LOW);
   digitalWrite(L15, LOW);
   digitalWrite(L16, LOW);
+  
 }
