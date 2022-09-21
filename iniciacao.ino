@@ -32,7 +32,7 @@ void iniciacao()
   digitalWrite(L15, HIGH);
   delay(90);
   digitalWrite(L16, HIGH);
-  delay(2000);
+  delay(1500);
   //DESLIGA
   digitalWrite(L1, LOW);
   delay(90);
@@ -65,5 +65,37 @@ void iniciacao()
   digitalWrite(L15, LOW);
   delay(90);
   digitalWrite(L16, LOW);
-  delay(90);
+  delay(400);
+  digitalWrite(L1, HIGH);
+  digitalWrite(L2, HIGH);
+  digitalWrite(L3, HIGH);
+  digitalWrite(L4, HIGH);
+  digitalWrite(L5, HIGH);
+  digitalWrite(L7, HIGH);
+  digitalWrite(L8, HIGH);
+  digitalWrite(L9, HIGH);
+  digitalWrite(L10, HIGH);
+  digitalWrite(L11, HIGH);
+  digitalWrite(L12, HIGH);
+  digitalWrite(L13, HIGH);
+  digitalWrite(L14, HIGH);
+  digitalWrite(L15, HIGH);
+  digitalWrite(L16, HIGH);
+  delay(175);
+  digitalWrite(L1, LOW);
+  digitalWrite(L2, LOW);
+  digitalWrite(L3, LOW);
+  digitalWrite(L4, LOW);
+  digitalWrite(L5, LOW);
+  digitalWrite(L6, LOW);
+  digitalWrite(L7, LOW);
+  digitalWrite(L8, LOW);
+  digitalWrite(L9, LOW);
+  digitalWrite(L10, LOW);
+  digitalWrite(L11, LOW);
+  digitalWrite(L12, LOW);
+  digitalWrite(L13, LOW);
+  digitalWrite(L14, LOW);
+  digitalWrite(L15, LOW);
+  digitalWrite(L16, LOW);
 }

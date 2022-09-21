@@ -1,4 +1,4 @@
-//⠀⠀⡀⡄⡄⡄⡄⡄⡄⡄⡄⡄⡄⡄⡄⡄⡄⡄⡄⡄⡄⡄⡄⡄⡄⡄⡄⡄⡄⡄⡄⡄⡄⡄⡄⡄⡄⠄⠀⠀
+//⠀⠀⡀⡄⡄⡄⡄⡄⡄⡄⡄⡄⡄⡄⡄⡄⡄⡄⡄⡄⡄⡄⡄⡄⡄⡄⡄⡄⡄⡄⡄⡄⡄⡄⡄⡄⡄⠄⠀⠀                  
 //⠀⠎⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣠⠀
 //⠀⠏⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣰⠀
 //⠀⠏⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠷⠓⠀⠀⠱⡳⣿⣿⣿⣿⣿⣿⣿⣿⡿⠳⠁⣰⣿⣿⣿⣰⠀
@@ -7,7 +7,7 @@
 //⠀⠏⣿⣿⣿⣿⣿⣿⠷⠓⠀⠀⠀⠀⠀⠀⠳⣷⣿⣿⣿⣿⡿⣯⣎⢈⠀⠀⠀⠀⠱⡷⣿⣿⣿⣿⣿⣿⣰⠀
 //⠀⠏⣿⣿⣿⣿⠛⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣈⣾⡿⠳⠁⠀⠀⠱⣿⣯⡎⠀⠀⠀⠀⠐⢹⣿⣿⣿⣿⣰⠀
 //⠀⠏⣿⣿⣿⣿⣿⣯⣌⠈⠀⠀⠀⢀⣈⣮⡿⠳⠁⠀⠀⠀⣈⣬⡿⠷⠑⠀⠀⠀⢈⣬⣾⣿⣿⣿⣿⣿⣰⠀
-//⠀⠏⣿⣿⣿⣿⣿⣿⣿⣿⣯⣌⣮⡿⠳⠁⠀⠀⠀⣈⣬⡿⠷⠑⠀⠀⠀⢈⣬⣾⣿⣿⣿⣿⣿⣿⣿⣿⣰⠀
+//⠀⠏⣿⣿⣿⣿⣿⣿⣿⣿⣯⣌⣮⡿⠳⠁⠀⠀⠀⣈⣬⡿⠷⠑⠀⠀⠀⢈⣬⣾⣿⣿⣿⣿⣿⣿⣿⣿⣰⠀.         
 //⠀⠏⣿⣿⣿⣿⣿⣿⣿⣿⡿⠳⠁⠀⠀⠀⣈⣬⡿⠷⠑⠀⠀⠀⢀⣌⣾⠷⠳⣷⣿⣿⣿⣿⣿⣿⣿⣿⣰⠀
 //⠀⠏⣿⣿⣿⣿⣿⡿⠳⠁⠀⠀⠀⣈⣬⣿⠷⠑⠀⠀⠀⢀⣌⣾⡷⠓⠀⠀⠀⠀⠐⠳⣷⣿⣿⣿⣿⣿⣰⠀
 //⠀⠏⣿⣿⣿⣿⢍⠈⠀⠀⠀⠀⠳⣷⣿⢌⠈⠀⢀⣌⣾⠿⠓⠁⠀⠀⠀⠀⠀⠀⠀⠀⢀⣘⣿⣿⣿⣿⣰⠀
@@ -18,7 +18,7 @@
 //⠀⠏⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣰⠀
 //⠀⠇⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡰⠀
 //⠀⠀⠠⠢⠢⠢⠢⠢⠢⠢⠢⠢⠢⠢⠢⠢⠢⠢⠢⠢⠢⠢⠢⠢⠢⠢⠢⠢⠢⠢⠢⠢⠢⠢⠢⠢⠢⠂⠀
-const int L1  = 31; const int L2  = 29; const int L3  = 27; const int L4  = 25; const int L5  = 23; const int L6  = 21; const int L7  = 19; const int L8  = 17; const int L9  = 15; const int L10 = 13; const int L11 = 11; const int L12 = 9; const int L13  = 7; const int L14  = 5; const int L15  = 3; const int L16  = 30;
+const int L1  = 31; const int L2  = 29; const int L3  = 27; const int L4  = 25; const int L5  = 21; const int L6  = 23; const int L7  = 11; const int L8  = 19; const int L9  = 17; const int L10 = 15; const int L11 = 13; const int L12 = 30; const int L13  = 9; const int L14  = 3; const int L15  = 5; const int L16  = 7;
 //=======================// ENTRADAS
 const int P1  = A0; const int P2  = A1; const int P3  = A2; const int P4  = A3; const int P5  = A4; const int P6  = A5; const int P7  = A6; const int P8  = A7; const int P9  = A8; const int P10 = A9; const int P11 = A10; const int P12 = A11; const int P13 = A12; const int P14 = A13; const int P15 = A14; const int P16 = A15;
 //====================//
@@ -62,71 +62,103 @@ void loop() {
   //========================//
   if (PESS1 == 0)
   {
+    Serial.println("pessoa1");
     pessoa1();
   }
+  //=========
   if (PESS2 == 0)
   {
+    Serial.println("pessoa2");
     pessoa2();
   }
+  //=========
   if (PESS3 == 0)
   {
+    Serial.println("pessoa3");
     pessoa3();
   }
+  //==========
   if (PESS4 == 0)
   {
+    Serial.println("pessoa4");
     pessoa4();
   }
-  if (PESS4 == 0)
-  {
-    pessoa4();
-  }
+  //==========
   if (PESS5 == 0)
   {
+    Serial.println("pessoa5");
     pessoa5();
   }
+  //==========
   if (PESS6 == 0)
   {
+    Serial.println("pessoa6");
     pessoa6();
   }
+  //===========
   if (PESS7 == 0)
   {
+    Serial.println("pessoa7");
     pessoa7();
   }
+  //==========
   if (PESS8 == 0)
   {
+    Serial.println("pessoa8");
     pessoa8();
   }
+  //==========
   if (PESS9 == 0)
   {
+    Serial.println("pessoa9");
     pessoa9();
   }
-    if (PESS10 == 0)
+  //=========
+  if (PESS10 == 0)
   {
+    Serial.println("pessoa10");
     pessoa10();
   }
-    if (PESS11 == 0)
+  //========
+  if (PESS11 == 0)
   {
+    Serial.println("pessoa11");
     pessoa11();
   }
-    if (PESS12 == 0)
+  //=======
+  if (PESS12 == 0)
   {
+    Serial.println("pessoa12");
     pessoa12();
   }
-    if (PESS13 == 0)
+  //=======
+  if (PESS13 == 0)
   {
+    Serial.println("pessoa13");
     pessoa13();
   }
-    if (PESS14 == 0)
+  //========
+  if (PESS14 == 0)
   {
+    Serial.println("pessoa14");
     pessoa14();
   }
-    if (PESS15 == 0)
+  //========
+  if (PESS15 == 0)
   {
+    Serial.println("pessoa15");
     pessoa15();
   }
-    if (PESS16 == 0)
+  //========
+  if (PESS16 == 0)
   {
+    Serial.println("pessoa16");
     pessoa16();
   }
+  //========
+//  if (PESS16 == 0)
+//  {
+//    pessoa16();
+//  }
 
 }

@@ -1,12 +1,16 @@
 void serial(){
 Serial.print("sensor = ");
 Serial.println(PESS1);
+//UwU
 Serial.print("sensor2 = ");
 Serial.println(PESS2);
+//MADE IN BRASIL
 Serial.print("sensor3 = ");
 Serial.println(PESS3);
+//By Zarigata
 Serial.print("sensor4 = ");
 Serial.println(PESS4);
+//Powered by A.C.E
 Serial.print("sensor5 = ");
 Serial.println(PESS5);
 Serial.print("sensor6 = ");
